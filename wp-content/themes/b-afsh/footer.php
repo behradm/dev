@@ -17,7 +17,7 @@
 			<span class="sep"> | </span>
 			<?php printf( __( 'Theme: %1$s by %2$s.', 'b-afsh' ), 'b-afsh', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
 		</div>-->
-		<!-- .site-info -->
+		<!-- .site-info --> <!-- Life is awesome -->
 
 	</footer><!-- #colophon -->
 </div><!-- #page -->
