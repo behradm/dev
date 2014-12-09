@@ -20,3 +20,28 @@
 @mixin clearfix-after() {
 	clear: both;
 }
+
+@mixin font-face($font-family, $font-filename, $font-weight: normal) {
+  @font-face {
+    font: {
+      family: $font-family;
+      weight: $font-weight;
+    }
+    src: url('../fonts/' + $font-filename) format('opentype');
+  }
+}
+
+@include font-face("calendas_plus", "Calendas_Plus.otf");
+@include font-face("calendas_plus_bold", "Calendas_Plus_Bold.otf", bold);
+@include font-face("calendas_plus_italic", "Calendas_Plus_Italic.otf", italic);
+
+
+@mixin font-regular() {
+  font-family: "calendas_plus", serif; font-weight: normal; 
+}
+@mixin font-bold() {
+  font-family: "calendas_plus_bold"; font-weight: bold; 
+}
+@mixin font-italic() {
+  font-family: "calendas_plus_italic", serif; font-weight: normal; 
+}
