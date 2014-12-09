@@ -43,6 +43,21 @@ and Blueprint http://www.blueprintcss.org/
 	12.1 Captions
 	12.2 Galleries
 --------------------------------------------------------------*/
+@font-face {
+  font-family: "calendas_plus";
+  font-weight: normal;
+  src: url("../fonts/Calendas_Plus.otf") format("opentype");
+}
+@font-face {
+  font-family: "calendas_plus_bold";
+  font-weight: bold;
+  src: url("../fonts/Calendas_Plus_Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "calendas_plus_italic";
+  font-weight: italic;
+  src: url("../fonts/Calendas_Plus_Italic.otf") format("opentype");
+}
 /*--------------------------------------------------------------
 1.0 Reset
 --------------------------------------------------------------*/
