@@ -547,6 +547,10 @@ a:hover, a:focus, a:active {
   display: block;
   text-decoration: none;
 }
+/* line 58, sass/navigation/_menus.scss */
+.main-navigation .current_page_item {
+  text-transform: uppercase;
+}
 
 /* Small menu */
 /* line 66, sass/navigation/_menus.scss */
