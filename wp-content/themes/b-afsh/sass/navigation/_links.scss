@@ -10,4 +10,5 @@ a {
 	&:active {
 		color: $color__link-hover;
 	}
+	&:hover { text-decoration: none;}
 }
