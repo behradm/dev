@@ -552,7 +552,11 @@ a:hover, a:focus, a:active {
 .main-navigation .current_page_item {
   text-transform: uppercase;
 }
-/* line 64, sass/navigation/_menus.scss */
+/* line 63, sass/navigation/_menus.scss */
+.main-navigation .menu .nav-menu {
+  margin-right: 70px;
+}
+/* line 65, sass/navigation/_menus.scss */
 .main-navigation .menu .nav-menu li {
   margin-right: 30px;
   letter-spacing: 1.75px;
@@ -562,24 +566,24 @@ a:hover, a:focus, a:active {
 }
 
 /* Small menu */
-/* line 75, sass/navigation/_menus.scss */
+/* line 76, sass/navigation/_menus.scss */
 .menu-toggle {
   display: none;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 80, sass/navigation/_menus.scss */
+  /* line 81, sass/navigation/_menus.scss */
   .menu-toggle,
   .main-navigation.toggled .nav-menu {
     display: block;
   }
 
-  /* line 85, sass/navigation/_menus.scss */
+  /* line 86, sass/navigation/_menus.scss */
   .main-navigation ul {
     display: none;
   }
 }
-/* line 90, sass/navigation/_menus.scss */
+/* line 91, sass/navigation/_menus.scss */
 .site-main .comment-navigation,
 .site-main .paging-navigation,
 .site-main .post-navigation {
@@ -587,7 +591,7 @@ a:hover, a:focus, a:active {
   overflow: hidden;
 }
 
-/* line 97, sass/navigation/_menus.scss */
+/* line 98, sass/navigation/_menus.scss */
 .comment-navigation .nav-previous,
 .paging-navigation .nav-previous,
 .post-navigation .nav-previous {
@@ -595,7 +599,7 @@ a:hover, a:focus, a:active {
   width: 50%;
 }
 
-/* line 104, sass/navigation/_menus.scss */
+/* line 105, sass/navigation/_menus.scss */
 .comment-navigation .nav-next,
 .paging-navigation .nav-next,
 .post-navigation .nav-next {
@@ -749,6 +753,32 @@ a:hover, a:focus, a:active {
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
+}
+
+/* for the homepage post */
+/* hiding the date */
+/* line 33, sass/site/primary/_posts-and-pages.scss */
+.post-22 .entry-meta {
+  display: none;
+}
+/* line 34, sass/site/primary/_posts-and-pages.scss */
+.post-22 .entry-content {
+  text-align: left;
+  margin: 166px 0 0 0;
+}
+/* line 36, sass/site/primary/_posts-and-pages.scss */
+.post-22 .entry-content p {
+  color: #BDBDBD;
+  display: inline-block;
+  width: 420px;
+  letter-spacing: 0.5px;
+  float: right;
+  margin-right: 58px;
+}
+/* line 38, sass/site/primary/_posts-and-pages.scss */
+.post-22 .entry-content p span {
+  color: #ffffff;
+  letter-spacing: 1.7px;
 }
 
 /*--------------------------------------------------------------
