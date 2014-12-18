@@ -26,3 +26,16 @@
 	clear: both;
 	margin: 0 0 1.5em;
 }
+/* for the homepage post */
+
+/* hiding the date */
+.post-22 {
+	.entry-meta { display: none; }
+	.entry-content { 
+		text-align: left; margin: 166px 0 0 0; 
+		p { 
+			color: $color__text-home-page; display: inline-block; width: 420px; letter-spacing: 0.5px; float: right; margin-right: 58px;
+			span { color: $color__span-home-page; letter-spacing: 1.7px; }
+		}
+	}
+}
