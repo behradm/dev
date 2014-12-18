@@ -881,3 +881,15 @@ object {
 .gallery-caption {
   display: block;
 }
+
+/* CSS for main page image */
+/* line 48, sass/media/_galleries.scss */
+body.custom-background {
+  background-position: 24px -4% !important;
+}
+
+/* line 52, sass/media/_galleries.scss */
+body.page-id-27 {
+  background-image: none !important;
+  background-color: #ffffff !important;
+}
