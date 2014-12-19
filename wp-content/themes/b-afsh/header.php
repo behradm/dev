@@ -13,6 +13,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<title>Behrad Mirafshar personal website</title>
+<meta name="description" content="A creative mind who seeks no limit">
 
 <?php wp_head(); ?>
 </head>
