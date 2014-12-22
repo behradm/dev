@@ -845,6 +845,10 @@ a:hover {
   margin: 25px 0 0;
 }
 /* line 64, sass/site/primary/_posts-and-pages.scss */
+.post-27 .entry-content p:last-child {
+  margin-bottom: px;
+}
+/* line 65, sass/site/primary/_posts-and-pages.scss */
 .post-27 .entry-content p:nth-child(5) {
   margin-bottom: 45px;
 }
