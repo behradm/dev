@@ -48,7 +48,7 @@
 }
 .post-27 {
 	.entry-header { 
-		.entry-title { display: none; }
+		.entry-title { display: none !important; }
 	}
 	.entry-content { 
 		p, h1, h2 { margin-bottom: 25px; }
