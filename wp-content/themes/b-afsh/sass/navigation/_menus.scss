@@ -61,12 +61,13 @@
 	}
 	.menu {
 		.nav-menu {
-			margin-right: 70px;
+			margin-right: 50px;
+			padding-top: 80px; 
 			li {
-				margin-right: 30px;
 				letter-spacing: 1.75px;
 				@include font-size(1.4);
-				margin-top: 75px; 
+				margin-right: 30px; 
+				a { text-transform: uppercase !important;  }
 			}
 		}
 	}
