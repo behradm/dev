@@ -27,6 +27,13 @@
 	margin: 0 0 1.5em;
 }
 /* for the homepage post */
+.site-content {
+	.content-area { 
+		.site-main {
+			.post-27 { margin: 70px 82px 82px; width: 1024px; }
+		}
+	}
+}
 
 /* hiding the date */
 .post-22 {
@@ -34,8 +41,28 @@
 	.entry-content { 
 		text-align: left; margin: 166px 0 0 0; 
 		p { 
-			color: $color__text-home-page; display: inline-block; width: 420px; letter-spacing: 0.5px; float: right; margin-right: 58px;
+			color: $color__text-home-page; display: inline-block; width: 420px; letter-spacing: 0.5px; float: right; margin-right: 38px;
 			span { color: $color__span-home-page; letter-spacing: 1.7px; }
+		}
+	}
+}
+.post-27 {
+	.entry-header { 
+		.entry-title { display: none; }
+	}
+	.entry-content { 
+		p, h1, h2 { margin-bottom: 25px; }
+		h2 { margin-top: 25px; }
+		h1 { font-size: 20px; line-height: 24px; letter-spacing: 1px; color: $color__text-about-page; opacity: 0.87; font-weight: bold; }
+		h2 { 
+			font-size: 20px; line-height: 24px; letter-spacing: 1px; color: $color__text-about-page; opacity: 0.87; font-weight: bold; width: 760px;  
+		}
+		p {
+			width: 760px; font-size: 18px; line-height: 22px; letter-spacing: 0.8px; color: $color__text-about-page; opacity: 0.87;
+			span { font-weight: bold; letter-spacing: 1px; }
+			img { margin: 25px 0 0; }
+			&:last-child { margin-bottom: 82px; }
+			&:nth-child(5) { margin-bottom: 45px; }
 		}
 	}
 }
