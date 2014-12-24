@@ -846,11 +846,20 @@ a:hover {
 }
 /* line 64, sass/site/primary/_posts-and-pages.scss */
 .post-27 .entry-content p:last-child {
-  margin-bottom: px;
+  margin-bottom: 0px;
 }
 /* line 65, sass/site/primary/_posts-and-pages.scss */
 .post-27 .entry-content p:nth-child(5) {
   margin-bottom: 45px;
+}
+/* line 66, sass/site/primary/_posts-and-pages.scss */
+.post-27 .entry-content p a {
+  color: #C8C8C8;
+}
+/* line 68, sass/site/primary/_posts-and-pages.scss */
+.post-27 .entry-content p a:hover {
+  text-decoration: none;
+  color: #000;
 }
 
 /*--------------------------------------------------------------
