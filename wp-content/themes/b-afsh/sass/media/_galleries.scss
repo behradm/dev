@@ -53,3 +53,10 @@ body.page-id-27 {
 	background-image: none !important; 
 	background-color: #ffffff !important;
 }
+
+@media (max-width: 950px) { 
+body.custom-background { background-image: url('img/b_afsh_blur.png') !important; background-size: 100%; background-position: 100% 0 !important; }
+}
+@media (max-width: 950px) { 
+body.custom-background { background-size: 130%; }
+}
