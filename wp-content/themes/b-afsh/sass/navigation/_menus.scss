@@ -81,11 +81,11 @@
 @media screen and (max-width: 600px) {
 	.menu-toggle,
 	.main-navigation.toggled .nav-menu {
-		display: block;
+		display: none;
 	}
 
 	.main-navigation ul {
-		display: none;
+		display: block;
 	}
 }
 
@@ -110,3 +110,5 @@
 	text-align: right;
 	width: 50%;
 }
+
+

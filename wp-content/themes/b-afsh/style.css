@@ -583,12 +583,12 @@ a:hover {
   /* line 82, sass/navigation/_menus.scss */
   .menu-toggle,
   .main-navigation.toggled .nav-menu {
-    display: block;
+    display: none;
   }
 
   /* line 87, sass/navigation/_menus.scss */
   .main-navigation ul {
-    display: none;
+    display: block;
   }
 }
 /* line 92, sass/navigation/_menus.scss */
@@ -864,6 +864,23 @@ a:hover {
   font-size: 20px;
 }
 
+@media (max-width: 950px) {
+  /* line 77, sass/site/primary/_posts-and-pages.scss */
+  #post-92 {
+    text-align: center;
+  }
+  /* line 80, sass/site/primary/_posts-and-pages.scss */
+  #post-92 .entry-content p {
+    text-align: center;
+    font-size: 1.2em;
+    width: 71%;
+  }
+  /* line 82, sass/site/primary/_posts-and-pages.scss */
+  #post-92 .entry-content p span {
+    display: block;
+    font-size: 2.4em;
+  }
+}
 /*--------------------------------------------------------------
 10.2 Asides
 --------------------------------------------------------------*/
@@ -1010,7 +1027,7 @@ object {
 
 /* CSS for main page image */
 /* line 48, sass/media/_galleries.scss */
-body.custom-background {
+body.page-id-92 {
   background-position: 24px -20% !important;
 }
 
@@ -1022,7 +1039,7 @@ body.page-id-27 {
 
 @media (max-width: 950px) {
   /* line 58, sass/media/_galleries.scss */
-  body.custom-background {
+  body.page-id-92 {
     background-image: url("img/b_afsh_blur.png") !important;
     background-size: 100%;
     background-position: 100% 0 !important;
@@ -1030,7 +1047,7 @@ body.page-id-27 {
 }
 @media (max-width: 950px) {
   /* line 61, sass/media/_galleries.scss */
-  body.custom-background {
+  body.page-id-92 {
     background-size: 130%;
   }
 }
