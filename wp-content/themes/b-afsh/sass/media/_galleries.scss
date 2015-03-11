@@ -44,6 +44,10 @@
 .gallery-caption {
 	display: block;
 }
+/* CSS image position FOR NOW for other pagers */
+body.custom-background{
+	background-position: 24px -30% !important;
+}
 /* CSS for main page image */
 body.page-id-92{
 	background-position: 24px -30% !important;
