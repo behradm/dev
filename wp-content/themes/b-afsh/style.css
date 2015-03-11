@@ -616,6 +616,36 @@ a:hover {
   width: 50%;
 }
 
+/* Responsiveness for navigation menu Home page */
+@media (max-width: 950px) {
+  /* line 116, sass/navigation/_menus.scss */
+  .page-id-92 .main-navigation {
+    text-align: center;
+  }
+  /* line 119, sass/navigation/_menus.scss */
+  .page-id-92 .main-navigation .menu .nav-menu {
+    float: none;
+    margin: 0 auto;
+  }
+  /* line 121, sass/navigation/_menus.scss */
+  .page-id-92 .main-navigation .menu .nav-menu .page-item-36 {
+    margin-right: 0;
+  }
+  /* line 124, sass/navigation/_menus.scss */
+  .page-id-92 .main-navigation .menu {
+    display: inline-block;
+  }
+}
+@media (max-width: 420px) {
+  /* line 135, sass/navigation/_menus.scss */
+  .page-id-92 .main-navigation .menu .nav-menu li {
+    margin-right: 20px;
+  }
+  /* line 136, sass/navigation/_menus.scss */
+  .page-id-92 .main-navigation .menu .nav-menu .page-item-36 {
+    margin-right: 0;
+  }
+}
 /*--------------------------------------------------------------
 6.0 Accessibility
 --------------------------------------------------------------*/
@@ -874,11 +904,24 @@ a:hover {
     text-align: center;
     font-size: 1.2em;
     width: 71%;
+    margin: 100px 0 0 0;
   }
   /* line 82, sass/site/primary/_posts-and-pages.scss */
   #post-92 .entry-content p span {
     display: block;
-    font-size: 2.4em;
+    font-size: 3.4em;
+  }
+}
+@media (max-width: 683px) {
+  /* line 90, sass/site/primary/_posts-and-pages.scss */
+  #post-92 .entry-content p {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  /* line 99, sass/site/primary/_posts-and-pages.scss */
+  #post-92 .entry-content p {
+    width: 95%;
   }
 }
 /*--------------------------------------------------------------
@@ -1040,7 +1083,7 @@ body.page-id-27 {
 @media (max-width: 950px) {
   /* line 58, sass/media/_galleries.scss */
   body.page-id-92 {
-    background-image: url("img/b_afsh_blur.png") !important;
+    background-image: url("img/b_afsh_blur_4.png") !important;
     background-size: 100%;
     background-position: 100% 0 !important;
   }
@@ -1048,6 +1091,6 @@ body.page-id-27 {
 @media (max-width: 950px) {
   /* line 61, sass/media/_galleries.scss */
   body.page-id-92 {
-    background-size: 130%;
+    background-size: 140%;
   }
 }
