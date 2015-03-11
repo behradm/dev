@@ -618,8 +618,8 @@ a:hover {
 
 /* CSS for navigation menu Home page */
 /* line 118, sass/navigation/_menus.scss */
-.page-id-92 .main-navigation .menu ul {
-  margin-right: 121px;
+#site-navigation .menu ul {
+  margin-right: 244px;
 }
 
 /* Responsiveness for navigation menu All the pages for now */

@@ -112,13 +112,13 @@
 }
 
 /* CSS for navigation menu Home page */
-.page-id-92 {
-	.main-navigation {
-		.menu { 
-			ul { margin-right: 121px; }
-		}
+
+#site-navigation {
+	.menu { 
+		ul { margin-right: 244px; }
 	}
 }
+
 /* Responsiveness for navigation menu All the pages for now */
 @media (max-width: 950px) { 
 	.main-navigation {
