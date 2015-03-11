@@ -110,5 +110,32 @@
 	text-align: right;
 	width: 50%;
 }
-
-
+/* Responsiveness for navigation menu Home page */
+@media (max-width: 950px) { 
+	.page-id-92 {
+		.main-navigation {
+			text-align: center; 
+			.menu {
+				.nav-menu {
+					float: none; margin: 0 auto; 
+					.page-item-36 { margin-right: 0; }
+				}
+			}
+			.menu {
+				display: inline-block; 
+			}
+		}
+	}
+}
+@media (max-width: 420px) { 
+	.page-id-92 {
+		.main-navigation {
+			.menu {
+				.nav-menu {
+					li { margin-right: 20px; }
+					.page-item-36 { margin-right: 0; }
+				}
+			}
+		}
+	}
+}
