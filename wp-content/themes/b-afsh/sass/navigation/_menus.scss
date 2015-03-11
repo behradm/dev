@@ -110,6 +110,15 @@
 	text-align: right;
 	width: 50%;
 }
+
+/* CSS for navigation menu Home page */
+.page-id-92 {
+	.main-navigation {
+		.menu { 
+			ul { margin-right: 121px; }
+		}
+	}
+}
 /* Responsiveness for navigation menu Home page */
 @media (max-width: 950px) { 
 	.page-id-92 {
@@ -133,6 +142,11 @@
 			.menu {
 				.nav-menu {
 					li { margin-right: 20px; }
+					@-moz-document url-prefix() {
+					    li {
+					        margin-right: 10px;
+					    }
+					}
 					.page-item-36 { margin-right: 0; }
 				}
 			}
