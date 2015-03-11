@@ -26,41 +26,6 @@
 	clear: both;
 	margin: 0 0 1.5em;
 }
-/* for the homepage post */
-.site-content {
-	.content-area { 
-		.site-main {
-			.post-27 { margin: 70px 82px 82px; width: 1024px; }
-		}
-	}
-}
-
-/* hiding the date */
-
-.post-27 {
-	.entry-header { 
-		.entry-title { display: none !important; }
-	}
-	.entry-content { 
-		p, h1, h2 { margin-bottom: 25px; }
-		h2 { margin-top: 25px; }
-		h1 { font-size: 20px; line-height: 24px; letter-spacing: 1px; color: $color__text-about-page; opacity: 0.87; font-weight: bold; }
-		h2 { 
-			font-size: 20px; line-height: 24px; letter-spacing: 1px; color: $color__text-about-page; opacity: 0.87; font-weight: bold; width: 760px;  
-		}
-		p {
-			width: 760px; font-size: 1em; line-height: 22px; letter-spacing: 0.8px; color: $color__text-about-page; opacity: 0.87;
-			span { font-weight: bold; letter-spacing: 1px; }
-			img { margin: 25px 0 0; }
-			&:last-child { margin-bottom: 0px; }
-			&:nth-child(5) { margin-bottom: 45px; }
-			a { 
-				color: $color__link-about-page; 
-				&:hover { text-decoration: none; color: $color__text-about-page; }
-			}
-		}
-	}
-}
 
 /* HOME PAGE */
 .post-92 {
@@ -98,7 +63,59 @@
 		.entry-content {
 			p { 
 				width: 95%;
+				br {display: none; }
 			}
+		}
+	}
+}
+
+/* ABOUT PAGE */
+.post-27 {
+	margin: 70px 82px 82px; width: 1024px;
+	.entry-header { 
+		.entry-title { display: none !important; }
+	}
+	.entry-content { 
+		p, h1, h2 { margin-bottom: 25px; }
+		h2 { margin-top: 25px; }
+		h1 { font-size: 20px; line-height: 24px; letter-spacing: 1px; color: $color__text-about-page; opacity: 0.87; font-weight: bold; }
+		h2 { 
+			font-size: 20px; line-height: 24px; letter-spacing: 1px; color: $color__text-about-page; opacity: 0.87; font-weight: bold; width: 760px;  
+		}
+		p {
+			width: 760px; font-size: 1em; line-height: 22px; letter-spacing: 0.8px; color: $color__text-about-page; opacity: 0.87;
+			span { font-weight: bold; letter-spacing: 1px; }
+			img { margin: 25px 0 0; }
+			&:last-child { margin-bottom: 0px; }
+			&:nth-child(5) { margin-bottom: 45px; }
+			a { 
+				color: $color__link-about-page; 
+				&:hover { text-decoration: none; color: $color__text-about-page; }
+			}
+		}
+	}
+}
+@media (max-width: 930px) {
+	.post-27 {
+		width: 99%; margin: 0 auto;
+		.entry-content { 
+			p { margin-right: auto; margin-left: auto; width: 70%; }
+			h1,h2 { margin-right: auto; margin-left: auto; width: 70%; }
+
+		}
+	}
+}
+@media (max-width: 800px) {
+	.post-27 {
+		.entry-content { 
+			p,h1,h2 { width: 80%; }
+		}
+	}
+}
+@media (max-width: 670px) {
+	.post-27 {
+		.entry-content { 
+			p,h1,h2 { width: 90%; }
 		}
 	}
 }
