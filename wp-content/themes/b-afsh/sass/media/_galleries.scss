@@ -44,11 +44,8 @@
 .gallery-caption {
 	display: block;
 }
-/* CSS image position FOR NOW for other pagers */
-body.custom-background{
-	background-position: 24px -30% !important;
-}
-/* CSS for main page image */
+
+/* CSS for HOME PAGE image */
 body.page-id-92{
 	background-position: 24px -30% !important;
 }
@@ -64,3 +61,7 @@ body.page-id-27 {
 @media (max-width: 950px) { 
 body.page-id-92 { background-size: 140%; }
 }
+
+/* CSS background of Blog page */
+
+body.blog.custom-background { background-image: none; background-color: white; }
