@@ -64,18 +64,18 @@
 
 /* HOME PAGE */
 .post-92 {
-	text-align: right; 
+	text-align: right; margin: 50px 0 0 0; 
 	.entry-content { 
 		display: inline-block; 
 		p { 
-			display: inline-block; color: $color__text-home-page; display: inline-block; width: 420px; letter-spacing: 0.5px; margin-right: 38px; text-align: left; 
-			span { color: $color__span-home-page; letter-spacing: 1.7px; font-size: 20px; }
+			display: inline-block; color: $color__text-home-page; display: inline-block; width: 490px; letter-spacing: 0.5px; margin-right: 38px; text-align: left; font-size: 1.2em; margin-bottom: 0; 
+			span { color: $color__span-home-page; letter-spacing: 1.7px; font-size: 1.22em; }
 		}
 	}
 }
 @media (max-width: 950px) { 
 	#post-92 { 
-		text-align: center; 
+		text-align: center; margin: 0 auto; 
 		.entry-content {
 			p { 
 				text-align: center; font-size: 1.2em; width: 71%; margin: 100px 0 0 0; 
