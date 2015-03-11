@@ -139,11 +139,6 @@
 		.menu {
 			.nav-menu {
 				li { margin-right: 20px; }
-				@-moz-document url-prefix() {
-				    li {
-				        margin-right: 10px;
-				    }
-				}
 				.page-item-36 { margin-right: 0; }
 			}
 		}
