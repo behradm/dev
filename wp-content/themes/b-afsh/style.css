@@ -616,32 +616,44 @@ a:hover {
   width: 50%;
 }
 
+/* CSS for navigation menu Home page */
+/* line 118, sass/navigation/_menus.scss */
+.page-id-92 .main-navigation .menu ul {
+  margin-right: 121px;
+}
+
 /* Responsiveness for navigation menu Home page */
 @media (max-width: 950px) {
-  /* line 116, sass/navigation/_menus.scss */
+  /* line 125, sass/navigation/_menus.scss */
   .page-id-92 .main-navigation {
     text-align: center;
   }
-  /* line 119, sass/navigation/_menus.scss */
+  /* line 128, sass/navigation/_menus.scss */
   .page-id-92 .main-navigation .menu .nav-menu {
     float: none;
     margin: 0 auto;
   }
-  /* line 121, sass/navigation/_menus.scss */
+  /* line 130, sass/navigation/_menus.scss */
   .page-id-92 .main-navigation .menu .nav-menu .page-item-36 {
     margin-right: 0;
   }
-  /* line 124, sass/navigation/_menus.scss */
+  /* line 133, sass/navigation/_menus.scss */
   .page-id-92 .main-navigation .menu {
     display: inline-block;
   }
 }
 @media (max-width: 420px) {
-  /* line 135, sass/navigation/_menus.scss */
+  /* line 144, sass/navigation/_menus.scss */
   .page-id-92 .main-navigation .menu .nav-menu li {
     margin-right: 20px;
   }
-  /* line 136, sass/navigation/_menus.scss */
+  @-moz-document url-prefix() {
+    /* line 146, sass/navigation/_menus.scss */
+    .page-id-92 .main-navigation .menu .nav-menu li {
+      margin-right: 10px;
+    }
+  }
+  /* line 150, sass/navigation/_menus.scss */
   .page-id-92 .main-navigation .menu .nav-menu .page-item-36 {
     margin-right: 0;
   }
@@ -872,6 +884,7 @@ a:hover {
 /* line 66, sass/site/primary/_posts-and-pages.scss */
 .post-92 {
   text-align: right;
+  margin: 50px 0 0 0;
 }
 /* line 68, sass/site/primary/_posts-and-pages.scss */
 .post-92 .entry-content {
@@ -882,22 +895,25 @@ a:hover {
   display: inline-block;
   color: #BDBDBD;
   display: inline-block;
-  width: 420px;
+  width: 490px;
   letter-spacing: 0.5px;
   margin-right: 38px;
   text-align: left;
+  font-size: 1.2em;
+  margin-bottom: 0;
 }
 /* line 72, sass/site/primary/_posts-and-pages.scss */
 .post-92 .entry-content p span {
   color: #ffffff;
   letter-spacing: 1.7px;
-  font-size: 20px;
+  font-size: 1.22em;
 }
 
 @media (max-width: 950px) {
   /* line 77, sass/site/primary/_posts-and-pages.scss */
   #post-92 {
     text-align: center;
+    margin: 0 auto;
   }
   /* line 80, sass/site/primary/_posts-and-pages.scss */
   #post-92 .entry-content p {
@@ -1071,7 +1087,7 @@ object {
 /* CSS for main page image */
 /* line 48, sass/media/_galleries.scss */
 body.page-id-92 {
-  background-position: 24px -20% !important;
+  background-position: 24px -30% !important;
 }
 
 /* line 52, sass/media/_galleries.scss */
