@@ -647,13 +647,7 @@ a:hover {
   .main-navigation .menu .nav-menu li {
     margin-right: 20px;
   }
-  @-moz-document url-prefix() {
-    /* line 143, sass/navigation/_menus.scss */
-    .main-navigation .menu .nav-menu li {
-      margin-right: 10px;
-    }
-  }
-  /* line 147, sass/navigation/_menus.scss */
+  /* line 142, sass/navigation/_menus.scss */
   .main-navigation .menu .nav-menu .page-item-36 {
     margin-right: 0;
   }
@@ -870,24 +864,24 @@ a:hover {
   }
 }
 /* ABOUT PAGE */
-/* line 73, sass/site/primary/_posts-and-pages.scss */
+/* line 72, sass/site/primary/_posts-and-pages.scss */
 .post-27 {
   margin: 70px 82px 82px;
   width: 1024px;
 }
-/* line 76, sass/site/primary/_posts-and-pages.scss */
+/* line 75, sass/site/primary/_posts-and-pages.scss */
 .post-27 .entry-header .entry-title {
   display: none !important;
 }
-/* line 79, sass/site/primary/_posts-and-pages.scss */
+/* line 78, sass/site/primary/_posts-and-pages.scss */
 .post-27 .entry-content p, .post-27 .entry-content h1, .post-27 .entry-content h2 {
   margin-bottom: 25px;
 }
-/* line 80, sass/site/primary/_posts-and-pages.scss */
+/* line 79, sass/site/primary/_posts-and-pages.scss */
 .post-27 .entry-content h2 {
   margin-top: 25px;
 }
-/* line 81, sass/site/primary/_posts-and-pages.scss */
+/* line 80, sass/site/primary/_posts-and-pages.scss */
 .post-27 .entry-content h1 {
   font-size: 20px;
   line-height: 24px;
@@ -896,7 +890,7 @@ a:hover {
   opacity: 0.87;
   font-weight: bold;
 }
-/* line 82, sass/site/primary/_posts-and-pages.scss */
+/* line 81, sass/site/primary/_posts-and-pages.scss */
 .post-27 .entry-content h2 {
   font-size: 20px;
   line-height: 24px;
@@ -906,7 +900,7 @@ a:hover {
   font-weight: bold;
   width: 760px;
 }
-/* line 85, sass/site/primary/_posts-and-pages.scss */
+/* line 84, sass/site/primary/_posts-and-pages.scss */
 .post-27 .entry-content p {
   width: 760px;
   font-size: 1em;
@@ -915,38 +909,42 @@ a:hover {
   color: #000;
   opacity: 0.87;
 }
-/* line 87, sass/site/primary/_posts-and-pages.scss */
+/* line 86, sass/site/primary/_posts-and-pages.scss */
 .post-27 .entry-content p span {
   font-weight: bold;
   letter-spacing: 1px;
 }
-/* line 88, sass/site/primary/_posts-and-pages.scss */
+/* line 87, sass/site/primary/_posts-and-pages.scss */
 .post-27 .entry-content p img {
   margin: 25px 0 0;
 }
-/* line 89, sass/site/primary/_posts-and-pages.scss */
+/* line 88, sass/site/primary/_posts-and-pages.scss */
 .post-27 .entry-content p:last-child {
   margin-bottom: 0px;
 }
-/* line 90, sass/site/primary/_posts-and-pages.scss */
+/* line 89, sass/site/primary/_posts-and-pages.scss */
 .post-27 .entry-content p:nth-child(5) {
   margin-bottom: 45px;
 }
-/* line 91, sass/site/primary/_posts-and-pages.scss */
+/* line 90, sass/site/primary/_posts-and-pages.scss */
 .post-27 .entry-content p a {
   color: #C8C8C8;
 }
-/* line 93, sass/site/primary/_posts-and-pages.scss */
+/* line 92, sass/site/primary/_posts-and-pages.scss */
 .post-27 .entry-content p a:hover {
   text-decoration: none;
   color: #000;
 }
 
 @media (max-width: 930px) {
-  /* line 99, sass/site/primary/_posts-and-pages.scss */
+  /* line 98, sass/site/primary/_posts-and-pages.scss */
   .post-27 {
     width: 99%;
     margin: 0 auto;
+  }
+  /* line 100, sass/site/primary/_posts-and-pages.scss */
+  .post-27 .entry-content {
+    margin-top: 81px;
   }
   /* line 102, sass/site/primary/_posts-and-pages.scss */
   .post-27 .entry-content p {
@@ -970,6 +968,142 @@ a:hover {
 @media (max-width: 670px) {
   /* line 118, sass/site/primary/_posts-and-pages.scss */
   .post-27 .entry-content p, .post-27 .entry-content h1, .post-27 .entry-content h2 {
+    width: 90%;
+  }
+}
+/* BLOG PAGE */
+/* line 125, sass/site/primary/_posts-and-pages.scss */
+.blog .post {
+  margin: 70px 82px 82px;
+  width: 1024px;
+}
+/* line 129, sass/site/primary/_posts-and-pages.scss */
+.blog .post .entry-header .entry-title a {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #000;
+  opacity: 0.8;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+  padding-bottom: 1px;
+  text-decoration: none;
+}
+/* line 130, sass/site/primary/_posts-and-pages.scss */
+.blog .post .entry-header .entry-title a:hover {
+  border-bottom: none;
+  opacity: 1;
+}
+/* line 133, sass/site/primary/_posts-and-pages.scss */
+.blog .post .entry-header .entry-meta {
+  display: none;
+}
+/* line 136, sass/site/primary/_posts-and-pages.scss */
+.blog .post .entry-content p, .blog .post .entry-content h1, .blog .post .entry-content h2 {
+  margin-bottom: 25px;
+}
+/* line 137, sass/site/primary/_posts-and-pages.scss */
+.blog .post .entry-content h2 {
+  margin-top: 25px;
+}
+/* line 138, sass/site/primary/_posts-and-pages.scss */
+.blog .post .entry-content h1 {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #000;
+  opacity: 0.87;
+  font-weight: bold;
+}
+/* line 139, sass/site/primary/_posts-and-pages.scss */
+.blog .post .entry-content h2 {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #000;
+  opacity: 0.87;
+  font-weight: bold;
+  width: 760px;
+}
+/* line 142, sass/site/primary/_posts-and-pages.scss */
+.blog .post .entry-content p {
+  width: 760px;
+  font-size: 1em;
+  line-height: 22px;
+  letter-spacing: 0.8px;
+  color: #000;
+  opacity: 0.87;
+}
+/* line 144, sass/site/primary/_posts-and-pages.scss */
+.blog .post .entry-content p span {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+/* line 145, sass/site/primary/_posts-and-pages.scss */
+.blog .post .entry-content p img {
+  margin: 25px 0 0;
+}
+/* line 146, sass/site/primary/_posts-and-pages.scss */
+.blog .post .entry-content p:last-child {
+  margin-bottom: 0px;
+}
+/* line 147, sass/site/primary/_posts-and-pages.scss */
+.blog .post .entry-content p:nth-child(5) {
+  margin-bottom: 45px;
+}
+/* line 148, sass/site/primary/_posts-and-pages.scss */
+.blog .post .entry-content p a {
+  color: #C8C8C8;
+}
+/* line 150, sass/site/primary/_posts-and-pages.scss */
+.blog .post .entry-content p a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+@media (max-width: 930px) {
+  /* line 158, sass/site/primary/_posts-and-pages.scss */
+  .blog .post {
+    width: 99%;
+    margin: 0 auto;
+  }
+  /* line 161, sass/site/primary/_posts-and-pages.scss */
+  .blog .post .entry-header .entry-title {
+    margin-top: 81px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* line 164, sass/site/primary/_posts-and-pages.scss */
+  .blog .post .entry-content p {
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+  }
+  /* line 165, sass/site/primary/_posts-and-pages.scss */
+  .blog .post .entry-content h1, .blog .post .entry-content h2 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+  }
+}
+@media (max-width: 800px) {
+  /* line 174, sass/site/primary/_posts-and-pages.scss */
+  .blog .post .entry-header .entry-title {
+    width: 80%;
+  }
+  /* line 177, sass/site/primary/_posts-and-pages.scss */
+  .blog .post .entry-content p, .blog .post .entry-content h1, .blog .post .entry-content h2 {
+    width: 80%;
+  }
+}
+@media (max-width: 670px) {
+  /* line 186, sass/site/primary/_posts-and-pages.scss */
+  .blog .post .entry-header .entry-title {
+    width: 90%;
+  }
+  /* line 189, sass/site/primary/_posts-and-pages.scss */
+  .blog .post .entry-content p, .blog .post .entry-content h1, .blog .post .entry-content h2 {
     width: 90%;
   }
 }
@@ -1117,26 +1251,20 @@ object {
   display: block;
 }
 
-/* CSS image position FOR NOW for other pagers */
-/* line 48, sass/media/_galleries.scss */
-body.custom-background {
-  background-position: 24px -30% !important;
-}
-
-/* CSS for main page image */
-/* line 52, sass/media/_galleries.scss */
+/* CSS for HOME PAGE image */
+/* line 49, sass/media/_galleries.scss */
 body.page-id-92 {
   background-position: 24px -30% !important;
 }
 
-/* line 56, sass/media/_galleries.scss */
+/* line 53, sass/media/_galleries.scss */
 body.page-id-27 {
   background-image: none !important;
   background-color: #ffffff !important;
 }
 
 @media (max-width: 950px) {
-  /* line 62, sass/media/_galleries.scss */
+  /* line 59, sass/media/_galleries.scss */
   body.page-id-92 {
     background-image: url("img/b_afsh_blur_4.png") !important;
     background-size: 100%;
@@ -1144,8 +1272,14 @@ body.page-id-27 {
   }
 }
 @media (max-width: 950px) {
-  /* line 65, sass/media/_galleries.scss */
+  /* line 62, sass/media/_galleries.scss */
   body.page-id-92 {
     background-size: 140%;
   }
+}
+/* CSS background of Blog page */
+/* line 67, sass/media/_galleries.scss */
+body.blog.custom-background {
+  background-image: none;
+  background-color: white;
 }
