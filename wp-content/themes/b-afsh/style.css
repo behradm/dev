@@ -631,7 +631,7 @@ a:hover {
   /* line 127, sass/navigation/_menus.scss */
   .main-navigation .menu .nav-menu {
     float: none;
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
   /* line 129, sass/navigation/_menus.scss */
   .main-navigation .menu .nav-menu .page-item-36 {
