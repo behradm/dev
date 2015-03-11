@@ -68,7 +68,6 @@
 		}
 	}
 }
-
 /* ABOUT PAGE */
 .post-27 {
 	margin: 70px 82px 82px; width: 1024px;
@@ -99,6 +98,7 @@
 	.post-27 {
 		width: 99%; margin: 0 auto;
 		.entry-content { 
+			margin-top: 81px; 
 			p { margin-right: auto; margin-left: auto; width: 70%; }
 			h1,h2 { margin-right: auto; margin-left: auto; width: 70%; }
 
@@ -116,6 +116,78 @@
 	.post-27 {
 		.entry-content { 
 			p,h1,h2 { width: 90%; }
+		}
+	}
+}
+
+/* BLOG PAGE */
+.blog {
+	.post {
+		margin: 70px 82px 82px; width: 1024px;
+		.entry-header {
+			.entry-title {
+				a { font-size: 20px; line-height: 24px; letter-spacing: 1px; color: $color__text-about-page; opacity: 0.8; font-weight: bold; border-bottom: 2px solid $color__text-about-page; padding-bottom: 1px; text-decoration: none;  
+					&:hover { border-bottom: none; opacity: 1; }
+				}
+			}
+			.entry-meta { display: none; }
+		}
+		.entry-content {
+			p, h1, h2 { margin-bottom: 25px; }
+			h2 { margin-top: 25px; }
+			h1 { font-size: 20px; line-height: 24px; letter-spacing: 1px; color: $color__text-about-page; opacity: 0.87; font-weight: bold; }
+			h2 { 
+				font-size: 20px; line-height: 24px; letter-spacing: 1px; color: $color__text-about-page; opacity: 0.87; font-weight: bold; width: 760px;  
+			}
+			p {
+				width: 760px; font-size: 1em; line-height: 22px; letter-spacing: 0.8px; color: $color__text-about-page; opacity: 0.87;
+				span { font-weight: bold; letter-spacing: 1px; }
+				img { margin: 25px 0 0; }
+				&:last-child { margin-bottom: 0px; }
+				&:nth-child(5) { margin-bottom: 45px; }
+				a { 
+					color: $color__link-about-page; 
+					&:hover { text-decoration: none; color: $color__text-about-page; }
+				}
+			}
+		}
+	}
+}
+@media (max-width: 930px) {
+	.blog {
+		.post {
+			width: 99%; margin: 0 auto;
+			.entry-header {
+				.entry-title { margin-top: 81px; width: 70%; margin-right: auto; margin-left: auto;}
+			}
+			.entry-content { 
+				p { margin-right: auto; margin-left: auto; width: 70%; }
+				h1,h2 { margin-right: auto; margin-left: auto; width: 70%; }
+			}
+		}
+	}
+}
+@media (max-width: 800px) {
+	.blog {
+		.post {
+			.entry-header {
+				.entry-title { width: 80%; }
+			}
+			.entry-content { 
+				p,h1,h2 { width: 80%; }
+			}
+		}
+	}
+}
+@media (max-width: 670px) {
+	.blog {
+		.post {
+			.entry-header {
+				.entry-title { width: 90%; }
+			}
+			.entry-content { 
+				p,h1,h2 { width: 90%; }
+			}
 		}
 	}
 }
