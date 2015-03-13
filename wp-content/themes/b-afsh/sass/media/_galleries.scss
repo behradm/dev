@@ -46,8 +46,13 @@
 }
 
 /* CSS for HOME PAGE image */
+html, body {
+    height: 100%; width: 100%;
+    padding: 0; margin: 0;
+}
+
 body.page-id-92{
-	background-position: 24px -30% !important;
+	background-position: 24px bottom !important;
 }
 
 body.page-id-27 {

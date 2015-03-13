@@ -1253,18 +1253,26 @@ object {
 
 /* CSS for HOME PAGE image */
 /* line 49, sass/media/_galleries.scss */
-body.page-id-92 {
-  background-position: 24px -30% !important;
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
-/* line 53, sass/media/_galleries.scss */
+/* line 54, sass/media/_galleries.scss */
+body.page-id-92 {
+  background-position: 24px bottom !important;
+}
+
+/* line 58, sass/media/_galleries.scss */
 body.page-id-27 {
   background-image: none !important;
   background-color: #ffffff !important;
 }
 
 @media (max-width: 950px) {
-  /* line 59, sass/media/_galleries.scss */
+  /* line 64, sass/media/_galleries.scss */
   body.page-id-92 {
     background-image: url("img/b_afsh_blur_4.png") !important;
     background-size: 100%;
@@ -1272,13 +1280,13 @@ body.page-id-27 {
   }
 }
 @media (max-width: 950px) {
-  /* line 62, sass/media/_galleries.scss */
+  /* line 67, sass/media/_galleries.scss */
   body.page-id-92 {
     background-size: 140%;
   }
 }
 /* CSS background of Blog page */
-/* line 67, sass/media/_galleries.scss */
+/* line 72, sass/media/_galleries.scss */
 body.blog.custom-background {
   background-image: none;
   background-color: white;
