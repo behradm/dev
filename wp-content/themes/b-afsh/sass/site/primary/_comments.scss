@@ -4,3 +4,25 @@
 .bypostauthor {
 	display: block;
 }
+.comments-area {
+	.comment-respond {
+		margin: 70px 82px 82px; width: 760px;
+	} 
+	.forom-allowed-tags { @include font-size(2); }
+}
+
+@media (max-width: 930px) {
+	.comments-area {
+		.comment-respond { width: 70%; margin-right: auto; margin-left: auto;}
+	}
+}
+@media (max-width: 800px) {
+	.comments-area {
+		.comment-respond { width: 80%; margin-right: auto; margin-left: auto;}
+	}
+}
+@media (max-width: 670px) {
+	.comments-area {
+		.comment-respond { width: 90%; margin-right: auto; margin-left: auto;}
+	}
+}

@@ -11,4 +11,6 @@ a {
 		color: $color__link-hover;
 	}
 	&:hover { text-decoration: none;}
+	.meta-nav { display: none; }
 }
+	.previous-post-nav, .next-post-nav { font-weight: bold; color: black; color: $color__text-about-page; text-decoration: none !important; opacity: 0.8; }

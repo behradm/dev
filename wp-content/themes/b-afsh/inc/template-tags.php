@@ -20,15 +20,13 @@ function b_afsh_paging_nav() {
 	<nav class="navigation paging-navigation" role="navigation">
 		<h1 class="screen-reader-text"><?php _e( 'Posts navigation', 'b-afsh' ); ?></h1>
 		<div class="nav-links">
-
 			<?php if ( get_next_posts_link() ) : ?>
 			<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'b-afsh' ) ); ?></div>
 			<?php endif; ?>
 
 			<?php if ( get_previous_posts_link() ) : ?>
-			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'b-afsh' ) ); ?></div>
+			<div class="nav-next">-<?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'b-afsh' ) ); ?></div>
 			<?php endif; ?>
-
 		</div><!-- .nav-links -->
 	</nav><!-- .navigation -->
 	<?php
@@ -51,9 +49,10 @@ function b_afsh_post_nav() {
 	<nav class="navigation post-navigation" role="navigation">
 		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'b-afsh' ); ?></h1>
 		<div class="nav-links">
+			<!-- &nbsp; used for giving space before the link -->
 			<?php
-				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<span class="meta-nav">&larr;</span>&nbsp;%title', 'Previous post link', 'b-afsh' ) );
-				next_post_link(     '<div class="nav-next">%link</div>',     _x( '%title&nbsp;<span class="meta-nav">&rarr;</span>', 'Next post link',     'b-afsh' ) );
+				next_post_link(     '<div class="nav-next"><span class="next-post-nav">Next Post: </span>%link</div>',     _x( '%title', 'Next post link',     'b-afsh' ) );
+				previous_post_link( '<div class="nav-previous"><span class="previous-post-nav">Previous Post: </span>%link</div>', _x( '%title', 'Previous post link', 'b-afsh' ) );
 			?>
 		</div><!-- .nav-links -->
 	</nav><!-- .navigation -->

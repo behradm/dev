@@ -99,16 +99,23 @@
 .comment-navigation .nav-previous,
 .paging-navigation .nav-previous,
 .post-navigation .nav-previous {
-	float: left;
-	width: 50%;
+	display: block;
+	/*  float: left;
+	width: 50%; */
 }
 
 .comment-navigation .nav-next,
 .paging-navigation .nav-next,
 .post-navigation .nav-next {
-	float: right;
+	/* float: right;
 	text-align: right;
-	width: 50%;
+	width: 50%; */
+	display: block;
+}
+
+/* Post navigation */
+.site-main .post-navigation { 
+	margin: 0 auto; width: 1024px; margin: 70px 82px 82px; 
 }
 
 /* CSS for navigation menu Home page */
@@ -143,4 +150,13 @@
 			}
 		}
 	}
+}
+@media (max-width: 930px) {
+	.site-main .post-navigation { width: 70%; margin-right: auto; margin-left: auto; }
+}
+@media (max-width: 800px) {
+	.site-main .post-navigation  { width: 80%; }
+}
+@media (max-width: 670px) {
+	.site-main .post-navigation  { width: 90%; }
 }

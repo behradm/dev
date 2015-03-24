@@ -1,0 +1,19 @@
+.ssba {
+	div { display: inline-block; margin-left: -8px; }
+}
+
+@media (max-width: 930px) {
+	.ssba {
+		div { display: block; width: 70%; margin-right: auto; margin-left: auto; }	
+	}
+}
+@media (max-width: 800px) {
+	.ssba {
+		div { display: block; width: 80%; margin-right: auto; margin-left: auto; }	
+	}
+}
+@media (max-width: 670px) {
+	.ssba {
+		div { display: block; width: 90%; margin-right: auto; margin-left: auto; }	
+	}
+}
