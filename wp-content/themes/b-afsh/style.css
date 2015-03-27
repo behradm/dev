@@ -1042,8 +1042,9 @@ a .meta-nav {
   letter-spacing: 1px;
   color: #000;
   opacity: 0.8;
+  font-family: "calendas_plus_bold";
   font-weight: bold;
-  border-bottom: 1.4px solid #000;
+  border-bottom: 1px solid #000;
   padding-bottom: 0.5px;
   text-decoration: none;
 }
@@ -1088,12 +1089,11 @@ a .meta-nav {
 /* line 146, sass/site/primary/_posts-and-pages.scss */
 .blog .post .entry-content p {
   width: 760px;
-  font-size: 19px;
-  font-size: 1.9rem;
+  font-size: 20px;
+  font-size: 2rem;
   line-height: 28px;
-  letter-spacing: 0.2px;
   color: #000;
-  opacity: 0.87;
+  opacity: 0.8;
 }
 /* line 148, sass/site/primary/_posts-and-pages.scss */
 .blog .post .entry-content p span {
@@ -1199,20 +1199,26 @@ a .meta-nav {
   font-weight: bold;
   padding-bottom: 1px;
   text-decoration: none;
+  font-family: "calendas_plus_bold";
+  font-weight: bold;
 }
 /* line 211, sass/site/primary/_posts-and-pages.scss */
 .single-post .post .entry-header .entry-meta {
   display: none;
 }
-/* line 214, sass/site/primary/_posts-and-pages.scss */
-.single-post .post .entry-content p, .single-post .post .entry-content h1, .single-post .post .entry-content h2 {
-  margin-bottom: 25px;
+/* line 213, sass/site/primary/_posts-and-pages.scss */
+.single-post .post .entry-content {
+  margin-top: 30px;
 }
 /* line 215, sass/site/primary/_posts-and-pages.scss */
-.single-post .post .entry-content h2 {
-  margin-top: 25px;
+.single-post .post .entry-content p {
+  margin-bottom: 15px;
 }
 /* line 216, sass/site/primary/_posts-and-pages.scss */
+.single-post .post .entry-content h2 {
+  margin: 30px 0 15px 0;
+}
+/* line 217, sass/site/primary/_posts-and-pages.scss */
 .single-post .post .entry-content h1 {
   font-size: 20px;
   font-size: 2rem;
@@ -1220,54 +1226,52 @@ a .meta-nav {
   letter-spacing: 1px;
   color: #000;
   opacity: 0.87;
+  font-family: "calendas_plus_bold";
   font-weight: bold;
 }
-/* line 217, sass/site/primary/_posts-and-pages.scss */
+/* line 218, sass/site/primary/_posts-and-pages.scss */
 .single-post .post .entry-content h2 {
-  font-size: 20px;
-  font-size: 2rem;
+  font-size: 25px;
+  font-size: 2.5rem;
   line-height: 24px;
   letter-spacing: 1px;
   color: #000;
   opacity: 0.87;
+  font-family: "calendas_plus_bold";
   font-weight: bold;
   width: 760px;
 }
-/* line 220, sass/site/primary/_posts-and-pages.scss */
+/* line 221, sass/site/primary/_posts-and-pages.scss */
 .single-post .post .entry-content p {
   width: 760px;
-  font-size: 19px;
-  font-size: 1.9rem;
+  font-size: 20px;
+  font-size: 2rem;
   line-height: 28px;
-  letter-spacing: 0.2px;
   color: #000;
-  opacity: 0.87;
+  opacity: 0.8;
 }
-/* line 222, sass/site/primary/_posts-and-pages.scss */
+/* line 223, sass/site/primary/_posts-and-pages.scss */
 .single-post .post .entry-content p span {
   font-weight: bold;
   letter-spacing: 1px;
 }
-/* line 223, sass/site/primary/_posts-and-pages.scss */
+/* line 224, sass/site/primary/_posts-and-pages.scss */
 .single-post .post .entry-content p img {
   margin: 25px 0 0;
 }
-/* line 224, sass/site/primary/_posts-and-pages.scss */
-.single-post .post .entry-content p:last-child {
-  margin-bottom: 0px;
-}
 /* line 225, sass/site/primary/_posts-and-pages.scss */
-.single-post .post .entry-content p:nth-child(5) {
-  margin-bottom: 45px;
-}
-/* line 226, sass/site/primary/_posts-and-pages.scss */
 .single-post .post .entry-content p a {
   color: #C8C8C8;
 }
-/* line 228, sass/site/primary/_posts-and-pages.scss */
+/* line 227, sass/site/primary/_posts-and-pages.scss */
 .single-post .post .entry-content p a:hover {
   text-decoration: none;
   color: #000;
+}
+/* line 230, sass/site/primary/_posts-and-pages.scss */
+.single-post .post .entry-content .outro {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 930px) {
