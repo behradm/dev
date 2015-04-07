@@ -178,8 +178,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: "calendas_plus", serif;
-  font-weight: normal;
+  font-family: baskerville;
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -188,8 +187,7 @@ textarea {
 /* line 1, sass/typography/_headings.scss */
 h1, h2, h3, h4, h5, h6 {
   clear: both;
-  font-family: "calendas_plus", serif;
-  font-weight: normal;
+  font-family: baskerville;
 }
 
 /* line 1, sass/typography/_copy.scss */
@@ -642,7 +640,7 @@ a .meta-nav {
 /* CSS for navigation menu Home page */
 /* line 125, sass/navigation/_menus.scss */
 #site-navigation .menu ul {
-  margin-right: 242px;
+  margin-right: 231px;
 }
 
 /* Responsiveness for navigation menu All the pages for now */
@@ -855,10 +853,10 @@ a .meta-nav {
 /* line 35, sass/site/primary/_posts-and-pages.scss */
 .post-92 .entry-content p {
   display: inline-block;
-  color: #BDBDBD;
+  color: #E6E6E6;
   display: block;
   width: 490px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
   margin-right: 38px;
   text-align: left;
   font-size: 19px;
@@ -1044,13 +1042,11 @@ a .meta-nav {
   opacity: 0.8;
   font-family: "calendas_plus_bold";
   font-weight: bold;
-  border-bottom: 1px solid #000;
-  padding-bottom: 0.5px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 /* line 134, sass/site/primary/_posts-and-pages.scss */
 .blog .post .entry-header .entry-title a:hover {
-  border-bottom: none;
+  text-decoration: none;
   opacity: 1;
 }
 /* line 137, sass/site/primary/_posts-and-pages.scss */

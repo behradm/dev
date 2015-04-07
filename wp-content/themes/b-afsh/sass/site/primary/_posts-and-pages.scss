@@ -33,7 +33,7 @@
 	.entry-content { 
 		display: inline-block; 
 		p { 
-			display: inline-block; color: $color__text-home-page; display: block; width: 490px; letter-spacing: 0.5px; margin-right: 38px; text-align: left; @include font-size(1.9); margin-bottom: 0; 
+			display: inline-block; color: $color__text-home-page; display: block; width: 490px; letter-spacing: 0.3px; margin-right: 38px; text-align: left; @include font-size(1.9); margin-bottom: 0; 
 			&:nth-child(2) { margin-top: 10px; }
 			span { color: $color__span-home-page; letter-spacing: 1.7px; font-size: 1.22em; }
 		}
@@ -130,8 +130,8 @@
 		margin: 70px 82px 82px; width: 1024px;
 		.entry-header {
 			.entry-title {
-				a { font-size: 20px; line-height: 24px; letter-spacing: 1px; color: $color__text-about-page; opacity: 0.8; @include font-bold(); border-bottom: 1px solid $color__text-about-page; padding-bottom: 0.5px; text-decoration: none;  
-					&:hover { border-bottom: none; opacity: 1; }
+				a { font-size: 20px; line-height: 24px; letter-spacing: 1px; color: $color__text-about-page; opacity: 0.8; @include font-bold(); text-decoration: underline;  
+					&:hover { text-decoration: none; opacity: 1; }
 				}
 			}
 			.entry-meta { display: none; }
